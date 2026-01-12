@@ -1,16 +1,68 @@
-# React + Vite
+Employee Management Dashboard(React + Vite) 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React.js Employee Management Dashboard that allows users to manage employee records with authentication, CRUD operations, search & filters, and print functionality.
+Features
+Authentication
+Mock login system
+Protected dashboard route
+Logout functionality
 
-Currently, two official plugins are available:
+Dashboard Summary
+Total Employees count
+Active Employees count
+Inactive Employees count
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Employee Management
+Add Employee
+Edit Employee
+Delete Employee (with confirmation)
+Print Employee List (table-only)
 
-## React Compiler
+Employee Details
+Full Name
+Gender
+Date of Birth
+State selection
+Active / Inactive status
+Profile image upload with preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Search & Filters
+Search by employee name
+Filter by gender
+Filter by active/inactive status
+Combined filters supported
 
-## Expanding the ESLint configuration
+Print Support
+Prints only the employee table
+Action buttons hidden during print
+Clean printable layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+UI / UX
+Clean, modern UI
+Responsive layout
+Proper spacing & typography
+Loading & empty states handled
+
+Tech Stack
+React.js
+React Router DOM
+JavaScript (ES6+)
+CSS
+Local Storage (for data persistence)
+
+
+
+Getting Started
+Clone the Repository
+git clone <repository-url>
+cd employee-management-dashboard
+
+Install Dependencies
+npm install
+
+Start the Application
+npm start
+
+
+The app will run at:
+http://localhost:3000
